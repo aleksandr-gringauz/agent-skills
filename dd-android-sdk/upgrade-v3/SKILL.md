@@ -1,6 +1,11 @@
 ---
-name: upgrade-v3
+name: dd-android-sdk-v3-upgrade
 description: Upgrade an Android application from Datadog's v2 mobile RUM SDK to the latest stable v3 SDK, including Core, RUM, Logs, Trace, OkHttp, and Session Replay breaking changes.
+metadata:
+  version: "1.0.0"
+  author: datadog-labs
+  repository: https://github.com/datadog-labs/agent-skills
+  tags: datadog,android-sdk,rum,logs,trace,session-replay,migration,v3,upgrade
 ---
 
 # Upgrade Datadog RUM Android SDK from v2 to v3

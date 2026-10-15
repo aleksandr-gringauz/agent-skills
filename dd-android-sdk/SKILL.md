@@ -1,6 +1,12 @@
 ---
 name: dd-android-sdk
 description: Route Datadog Android SDK upgrades to the migration instructions for the project's current and target major versions.
+metadata:
+  version: "1.0.0"
+  author: datadog-labs
+  repository: https://github.com/datadog-labs/agent-skills
+  tags: datadog,android-sdk,android,kotlin,gradle,rum,logs,trace,session-replay,migration
+  globs: "**/build.gradle,**/build.gradle.kts,**/libs.versions.toml"
 ---
 
 # Datadog Android SDK Upgrades
